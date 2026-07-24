@@ -1,19 +1,54 @@
 aid: bizzon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bizzon.png
 name: BIZZON
-description: BIZZON is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BIZZON (formerly AgentCASH) was a London-based hospitality and restaurant
+  technology company founded in 2015, offering an end-to-end point-of-sale (POS)
+  and payments platform for the food-and-beverage and hospitality sector. Its
+  suite spanned sales/ordering tools, business intelligence, and fully certified
+  cloud-hosted omnichannel payment technology, letting operators manage online
+  orders, payments, menus, inventory, staff, and loyalty. Backed by Techstars,
+  Mews, and Ascension, BIZZON was acquired by hospitality cloud platform Mews in
+  March 2022 and its product and infrastructure have since been folded into Mews;
+  the former developer surface (developers.bizzon.com), status page, and the
+  agentcash.com domain are no longer live, and the your.bizzon.com portal now
+  redirects to pos.mews.com. This profile is retained as a historical
+  provider/company record. No independent live API or developer surface remains
+  to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/bizzon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- mews
+- ascension
+x-status: acquired
+x-acquired-by: mews
+x-acquired-date: '2022-03'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Hospitality
+- Point of Sale
+- Payments
+- Restaurant
+- POS
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +57,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://agentcash.com/
+  url: https://www.mews.com/
+  x-note: >-
+    BIZZON's own domains (agentcash.com, bizzon.com, developers.bizzon.com) are
+    defunct; the product now lives under acquirer Mews. your.bizzon.com redirects
+    to pos.mews.com.
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/agent-cash-ltd
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bizzon-ltd
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
