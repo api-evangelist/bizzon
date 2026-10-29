@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BIZZON is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: techstars — https://agentcash.com/
+BIZZON (formerly AgentCASH) was a London-based hospitality and restaurant technology company founded in 2015, offering an end-to-end point-of-sale (POS) and payments platform for the food-and-beverage and hospitality sector. Its suite spanned sales/ordering tools, business intelligence, and fully certified cloud-hosted omnichannel payment technology, letting operators manage online orders, payments, menus, inventory, staff, and loyalty. Backed by Techstars, Mews, and Ascension, BIZZON was acquired by hospitality cloud platform Mews in March 2022 and its product and infrastructure have since been folded into Mews; the former developer surface (developers.bizzon.com), status page, and the agentcash.com domain are no longer live, and the your.bizzon.com portal now redirects to pos.mews.com. This profile is retained as a historical provider/company record. No independent live API or developer surface remains to enrich.
+
+**Areas:** Company · Hospitality · Point-of-Sale · Payments · Restaurant · Acquired
+
+## BIZZON on APIs.io (historical record)
+
+Everything profiled for BIZZON is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bizzon/](https://apis.io/providers/bizzon/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.mews.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BIZZON: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bizzon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
